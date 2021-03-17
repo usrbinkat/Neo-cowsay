@@ -51,7 +51,7 @@
 // cows/www.cow
 // DO NOT EDIT!
 
-package main
+package cowsay
 
 import (
 	"bytes"
