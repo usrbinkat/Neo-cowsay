@@ -6,8 +6,8 @@ import (
 	"os"
 	"strings"
 
-	cowsay "github.com/Code-Hex/Neo-cowsay"
-	"github.com/Code-Hex/Neo-cowsay/internal/super"
+	cowsay "github.com/usrbinkat/Neo-cowsay"
+	"github.com/usrbinkat/Neo-cowsay/internal/super"
 	wordwrap "github.com/Code-Hex/go-wordwrap"
 	flags "github.com/jessevdk/go-flags"
 	colorable "github.com/mattn/go-colorable"

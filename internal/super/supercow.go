@@ -8,8 +8,8 @@ import (
 	"syscall"
 	"time"
 
-	cowsay "github.com/Code-Hex/Neo-cowsay"
-	"github.com/Code-Hex/Neo-cowsay/internal/screen"
+	cowsay "github.com/usrbinkat/Neo-cowsay"
+	"github.com/usrbinkat/Neo-cowsay/internal/screen"
 	runewidth "github.com/mattn/go-runewidth"
 	"golang.org/x/crypto/ssh/terminal"
 )

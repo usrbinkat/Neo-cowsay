@@ -1,4 +1,4 @@
-PROJECT = github.com/Code-Hex/Neo-cowsay
+PROJECT = github.com/usrbinkat/Neo-cowsay
 
 build: build/cowsay build/cowthink
 
