@@ -1,6 +1,7 @@
-module github.com/Code-Hex/Neo-cowsay
+module github.com/usrbinkat/Neo-cowsay
 
 require (
+	github.com/Code-Hex/Neo-cowsay v1.0.1
 	github.com/Code-Hex/go-wordwrap v1.0.0
 	github.com/jessevdk/go-flags v1.4.0
 	github.com/mattn/go-colorable v0.1.1

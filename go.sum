@@ -1,3 +1,5 @@
+github.com/Code-Hex/Neo-cowsay v1.0.1 h1:HdQlCi5tvnY+vxUV9xVJMqWKXz7NQPJ+SmRWeO4Fi5w=
+github.com/Code-Hex/Neo-cowsay v1.0.1/go.mod h1:kxWXhHadnCsr8ThYKoaPlCW8XTZ538ulDTbM5f0CpR0=
 github.com/Code-Hex/go-wordwrap v1.0.0 h1:yl5fLyZEz3+hPGbpTRlTQ8mQJ1HXWcTq1FCNR1ch6zM=
 github.com/Code-Hex/go-wordwrap v1.0.0/go.mod h1:/SsbgkY2Q0aPQRyvXcyQwWYTQOIwSORKe6MPjRVGIWU=
 github.com/jessevdk/go-flags v1.4.0 h1:4IU2WS7AumrZ/40jfhf4QVDMsQwqA7VEHozFRrGARJA=
