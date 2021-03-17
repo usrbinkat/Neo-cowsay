@@ -19,6 +19,7 @@
 // cows/gopher.cow
 // cows/head-in.cow
 // cows/hellokitty.cow
+// cows/keanu.cow
 // cows/kiss.cow
 // cows/kitty.cow
 // cows/koala.cow
@@ -491,6 +492,26 @@ func cowsHellokittyCow() (*asset, error) {
 	}
 
 	info := bindataFileInfo{name: "cows/hellokitty.cow", size: 126, mode: os.FileMode(420), modTime: time.Unix(1525175246, 0)}
+	a := &asset{bytes: bytes, info: info}
+	return a, nil
+}
+
+var _cowsKeanuCow = []byte("\x1f\x8b\x08\x00\x00\x00\x00\x00\x00\xff\x74\x91\xc1\x6e\xc3\x20\x10\x44\xef\x7c\xc5\x48\x44\x32\x48\xc6\xdc\x4b\x7a\xa8\xa2\x9c\xf3\x03\x48\xb8\x8d\xac\xfa\xd0\xca\x55\xe2\xb6\x97\x15\xdf\x5e\x2d\x90\x18\x27\xcd\x3b\x04\xb1\xb3\x3b\x99\xc5\x52\x0a\x29\xf1\x82\x8f\xe9\x67\x38\x9d\x1b\x0c\x9f\x5f\x6f\xa7\xd7\xe3\x20\xa4\x14\x9b\x79\x1c\xc2\x71\xfa\xc5\x33\xb6\xdb\xfd\x61\xe7\x04\x98\xcd\x3c\x4e\xdf\xef\xe3\x7c\xce\xd7\xbb\x7b\xa1\x75\x99\x76\x55\x76\x0b\x2b\x21\x55\x9a\xc0\xb8\xe6\x46\x50\x56\x6b\xad\x49\x29\xef\x6b\x25\x38\xa7\x12\xc4\x72\xa5\x58\x50\xf0\x0f\xc8\x6d\x9d\x31\x51\x01\xde\x23\xea\x0a\x91\xa7\x19\xef\x81\xde\x7b\xa3\x16\xae\xe3\x94\x7f\x7a\xee\x81\x06\xa5\x33\x8d\x52\x89\x51\x3a\xd0\x77\x08\x96\xcd\xd2\x62\x16\x54\x52\x26\xbd\x65\x87\x58\x3f\x8e\xbd\x2c\x41\x97\x08\x57\xeb\x5a\x26\xf6\x4d\xf1\xe8\x3f\x11\x88\x26\xcb\x77\xbe\x39\x48\xec\x82\x8d\x30\xa1\x05\x50\xbf\x29\x19\x26\xaf\x93\x87\x1b\xe7\x56\x91\xf8\x78\xe2\x0f\x55\xdc\x96\xff\xb4\x55\x4f\x29\x8a\xd5\xe0\xad\xb8\x3f\xec\xc4\x5f\x00\x00\x00\xff\xff\x08\x80\xc9\x3b\x7d\x02\x00\x00")
+
+func cowsKeanuCowBytes() ([]byte, error) {
+	return bindataRead(
+		_cowsKeanuCow,
+		"cows/keanu.cow",
+	)
+}
+
+func cowsKeanuCow() (*asset, error) {
+	bytes, err := cowsKeanuCowBytes()
+	if err != nil {
+		return nil, err
+	}
+
+	info := bindataFileInfo{name: "cows/keanu.cow", size: 637, mode: os.FileMode(420), modTime: time.Unix(1525175246, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1146,6 +1167,7 @@ var _bindata = map[string]func() (*asset, error){
 	"cows/gopher.cow": cowsGopherCow,
 	"cows/head-in.cow": cowsHeadInCow,
 	"cows/hellokitty.cow": cowsHellokittyCow,
+	"cows/keanu.cow": cowsKeanuCow,
 	"cows/kiss.cow": cowsKissCow,
 	"cows/kitty.cow": cowsKittyCow,
 	"cows/koala.cow": cowsKoalaCow,
@@ -1237,6 +1259,7 @@ var _bintree = &bintree{nil, map[string]*bintree{
 		"gopher.cow": &bintree{cowsGopherCow, map[string]*bintree{}},
 		"head-in.cow": &bintree{cowsHeadInCow, map[string]*bintree{}},
 		"hellokitty.cow": &bintree{cowsHellokittyCow, map[string]*bintree{}},
+		"keanu.cow": &bintree{cowsKeanuCow, map[string]*bintree{}},
 		"kiss.cow": &bintree{cowsKissCow, map[string]*bintree{}},
 		"kitty.cow": &bintree{cowsKittyCow, map[string]*bintree{}},
 		"koala.cow": &bintree{cowsKoalaCow, map[string]*bintree{}},
