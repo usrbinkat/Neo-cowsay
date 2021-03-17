@@ -51,7 +51,7 @@
 // cows/www.cow
 // DO NOT EDIT!
 
-package cowsay
+package main
 
 import (
 	"bytes"
@@ -131,7 +131,7 @@ func cowsBeavisZenCow() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "cows/beavis.zen.cow", size: 584, mode: os.FileMode(420), modTime: time.Unix(1525175246, 0)}
+	info := bindataFileInfo{name: "cows/beavis.zen.cow", size: 584, mode: os.FileMode(436), modTime: time.Unix(1616010265, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -151,7 +151,7 @@ func cowsBongCow() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "cows/bong.cow", size: 286, mode: os.FileMode(420), modTime: time.Unix(1525175246, 0)}
+	info := bindataFileInfo{name: "cows/bong.cow", size: 286, mode: os.FileMode(436), modTime: time.Unix(1616010265, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -171,7 +171,7 @@ func cowsBudFrogsCow() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "cows/bud-frogs.cow", size: 310, mode: os.FileMode(420), modTime: time.Unix(1525175246, 0)}
+	info := bindataFileInfo{name: "cows/bud-frogs.cow", size: 310, mode: os.FileMode(436), modTime: time.Unix(1616010265, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -191,7 +191,7 @@ func cowsBunnyCow() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "cows/bunny.cow", size: 123, mode: os.FileMode(420), modTime: time.Unix(1525175246, 0)}
+	info := bindataFileInfo{name: "cows/bunny.cow", size: 123, mode: os.FileMode(436), modTime: time.Unix(1616010265, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -211,7 +211,7 @@ func cowsCheeseCow() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "cows/cheese.cow", size: 480, mode: os.FileMode(420), modTime: time.Unix(1525175246, 0)}
+	info := bindataFileInfo{name: "cows/cheese.cow", size: 480, mode: os.FileMode(436), modTime: time.Unix(1616010265, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -231,7 +231,7 @@ func cowsCowerCow() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "cows/cower.cow", size: 230, mode: os.FileMode(420), modTime: time.Unix(1525175246, 0)}
+	info := bindataFileInfo{name: "cows/cower.cow", size: 230, mode: os.FileMode(436), modTime: time.Unix(1616010265, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -251,7 +251,7 @@ func cowsDaemonCow() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "cows/daemon.cow", size: 569, mode: os.FileMode(420), modTime: time.Unix(1525175246, 0)}
+	info := bindataFileInfo{name: "cows/daemon.cow", size: 569, mode: os.FileMode(436), modTime: time.Unix(1616010265, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -271,7 +271,7 @@ func cowsDefaultCow() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "cows/default.cow", size: 173, mode: os.FileMode(420), modTime: time.Unix(1525175246, 0)}
+	info := bindataFileInfo{name: "cows/default.cow", size: 173, mode: os.FileMode(436), modTime: time.Unix(1616010265, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -291,7 +291,7 @@ func cowsDockerCow() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "cows/docker.cow", size: 344, mode: os.FileMode(420), modTime: time.Unix(1525185574, 0)}
+	info := bindataFileInfo{name: "cows/docker.cow", size: 344, mode: os.FileMode(436), modTime: time.Unix(1616010265, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -311,7 +311,7 @@ func cowsDragonAndCowCow() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "cows/dragon-and-cow.cow", size: 1284, mode: os.FileMode(420), modTime: time.Unix(1525175246, 0)}
+	info := bindataFileInfo{name: "cows/dragon-and-cow.cow", size: 1284, mode: os.FileMode(436), modTime: time.Unix(1616010265, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -331,7 +331,7 @@ func cowsDragonCow() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "cows/dragon.cow", size: 1000, mode: os.FileMode(420), modTime: time.Unix(1525175246, 0)}
+	info := bindataFileInfo{name: "cows/dragon.cow", size: 1000, mode: os.FileMode(436), modTime: time.Unix(1616010265, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -351,7 +351,7 @@ func cowsElephantInSnakeCow() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "cows/elephant-in-snake.cow", size: 295, mode: os.FileMode(420), modTime: time.Unix(1525175246, 0)}
+	info := bindataFileInfo{name: "cows/elephant-in-snake.cow", size: 295, mode: os.FileMode(436), modTime: time.Unix(1616010265, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -371,7 +371,7 @@ func cowsElephantCow() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "cows/elephant.cow", size: 284, mode: os.FileMode(420), modTime: time.Unix(1525175246, 0)}
+	info := bindataFileInfo{name: "cows/elephant.cow", size: 284, mode: os.FileMode(436), modTime: time.Unix(1616010265, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -391,7 +391,7 @@ func cowsEyesCow() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "cows/eyes.cow", size: 585, mode: os.FileMode(420), modTime: time.Unix(1525175246, 0)}
+	info := bindataFileInfo{name: "cows/eyes.cow", size: 585, mode: os.FileMode(436), modTime: time.Unix(1616010265, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -411,7 +411,7 @@ func cowsFlamingSheepCow() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "cows/flaming-sheep.cow", size: 490, mode: os.FileMode(420), modTime: time.Unix(1525175246, 0)}
+	info := bindataFileInfo{name: "cows/flaming-sheep.cow", size: 490, mode: os.FileMode(436), modTime: time.Unix(1616010265, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -431,7 +431,7 @@ func cowsGhostbustersCow() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "cows/ghostbusters.cow", size: 1018, mode: os.FileMode(420), modTime: time.Unix(1525175246, 0)}
+	info := bindataFileInfo{name: "cows/ghostbusters.cow", size: 1018, mode: os.FileMode(436), modTime: time.Unix(1616010265, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -451,7 +451,7 @@ func cowsGopherCow() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "cows/gopher.cow", size: 441, mode: os.FileMode(420), modTime: time.Unix(1525175246, 0)}
+	info := bindataFileInfo{name: "cows/gopher.cow", size: 441, mode: os.FileMode(436), modTime: time.Unix(1616010265, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -471,7 +471,7 @@ func cowsHeadInCow() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "cows/head-in.cow", size: 257, mode: os.FileMode(420), modTime: time.Unix(1525175246, 0)}
+	info := bindataFileInfo{name: "cows/head-in.cow", size: 257, mode: os.FileMode(436), modTime: time.Unix(1616010265, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -491,12 +491,12 @@ func cowsHellokittyCow() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "cows/hellokitty.cow", size: 126, mode: os.FileMode(420), modTime: time.Unix(1525175246, 0)}
+	info := bindataFileInfo{name: "cows/hellokitty.cow", size: 126, mode: os.FileMode(436), modTime: time.Unix(1616010265, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
 
-var _cowsKeanuCow = []byte("\x1f\x8b\x08\x00\x00\x00\x00\x00\x00\xff\x52\x29\xc9\x48\x8d\x4f\xce\x2f\x57\xb0\x55\xb0\xb1\x71\xf5\x77\xb6\xe6\x52\x80\x02\x95\x92\x8c\xfc\xd2\xf4\x8c\x92\x62\x05\x05\x85\xb8\xf8\xf8\x38\xb8\x04\xb2\x8c\x86\x4a\x6a\x65\x6a\xb1\x66\x4c\x4c\x3c\x04\x20\x14\x29\x28\x28\x68\xc4\xc7\x6b\xc6\xc4\x40\x39\x9a\x31\x31\xfa\x31\x31\x28\xf2\x0a\x2a\x25\xf9\x79\xe9\xa5\xa9\x0a\x35\x35\xba\xba\xba\xba\xe5\x0a\x35\xa8\xd2\x0a\x0a\x0a\x35\x35\x50\x8a\xcb\xd5\xdf\x99\x0b\x10\x00\x00\xff\xff\x9b\xb6\x10\xc1\xad\x00\x00\x00")
+var _cowsKeanuCow = []byte("\x1f\x8b\x08\x00\x00\x00\x00\x00\x00\xff\x84\x53\x4d\xab\x13\x31\x14\xdd\xe7\x57\x04\xe6\x2d\xc5\x3f\xe0\x13\x84\xc7\x5b\xb9\x78\x0b\xb7\x85\x32\x2d\xad\x2d\x62\x07\xa6\x53\xc4\xdd\x14\xab\x45\x0b\x6a\x4b\x11\x07\x17\x4d\x6e\x86\xba\x12\x06\x15\x3b\x5a\x69\xff\xcb\xfd\x25\x92\x34\x69\x32\x5f\x35\x5c\x86\xe9\xed\xc9\x99\x93\x73\x6e\x3c\x8f\x78\x1e\x7d\xdc\xf3\x47\x13\xfa\xc4\x7f\x79\x8f\xf6\xc3\xe0\x39\x9d\x8c\xc3\xce\x70\xf4\xcc\x8f\x1e\x75\x42\x7f\x38\xea\x86\x7e\x3f\xba\x3f\x0c\x88\xe7\x91\xab\x68\xd0\x6b\x77\x83\x17\xf4\x21\xbd\xbe\xbe\xbd\xbb\x79\x40\x90\xc5\x8d\x25\x62\x14\xa9\xaa\x99\x7c\xbf\x80\x64\x71\x1d\x91\x60\x28\x0e\x28\x8e\xcd\xb5\xad\xf2\x16\x89\x44\x56\xd8\xc0\x54\xd5\x73\x7d\x45\x68\x22\xb2\xfb\x17\x15\x99\x89\x7e\x5a\xa2\x1d\xc2\x0f\x97\x8b\x38\xc7\x31\x20\xc8\x2f\xdb\x51\x56\x07\x96\x25\x77\xe4\xb8\x2c\x2b\x53\x1f\x75\x07\x2a\x67\xb4\x72\xc4\x4f\xdb\xe5\x47\xbd\x5f\x2c\x50\x24\xc8\x57\x08\x99\xea\xa4\x28\x3e\xc9\x3e\x1c\xca\x4e\x69\x22\xf8\x53\x12\x69\xb4\xbc\x35\xa5\x04\xf2\xb9\xf9\x59\x12\x35\x73\x0d\x4a\x9c\x20\xf6\x15\x47\x98\x7a\x66\x8e\x41\xb9\x64\xb7\xb1\x66\xa5\xec\x7f\x17\x12\x91\x2a\x98\xfa\xc6\x77\x14\x6b\x14\xaf\x11\xb8\x1a\x8e\x5d\xf5\x5c\xa5\xec\xff\x96\x2d\x94\x7e\x7d\xb3\x05\x47\x9d\x17\xec\x0d\xe6\x55\xed\x34\x26\xc8\xbe\x68\xdc\x49\x9d\x4c\x4a\x35\xd9\x46\xba\x03\x2a\x16\xbe\xd1\x1e\xf1\x0f\xff\xbb\x1f\x7c\x63\xde\xf7\xea\x2a\xa4\x28\x7e\x21\x3b\x38\x53\x3a\x45\xbe\x45\x98\xd5\x4d\xa3\xa6\x60\x0a\x34\x47\xb6\x94\xb8\x9a\x51\x5c\x5b\x2e\x16\xb7\xa8\x8a\x71\xda\x3e\x2d\x62\x10\xef\x4e\x7f\x2b\x23\xe6\xce\xe6\x25\xf2\x54\xce\x11\xbc\xb7\x00\xfe\xf9\x0c\x68\x5d\x3c\x1e\x80\x8e\x9d\x33\x84\x37\x8e\xe0\x44\x4b\xe5\x39\xa5\x94\x6a\x92\xab\x68\x10\x4c\x9e\x0e\xa2\x31\xa1\xf5\xab\xd5\x3e\xaf\x26\x48\x01\x73\x7b\x77\x43\xfe\x05\x00\x00\xff\xff\x2b\x30\x7d\x80\x21\x05\x00\x00")
 
 func cowsKeanuCowBytes() ([]byte, error) {
 	return bindataRead(
@@ -511,7 +511,7 @@ func cowsKeanuCow() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "cows/keanu.cow", size: 637, mode: os.FileMode(420), modTime: time.Unix(1525175246, 0)}
+	info := bindataFileInfo{name: "cows/keanu.cow", size: 1313, mode: os.FileMode(436), modTime: time.Unix(1616010448, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -531,7 +531,7 @@ func cowsKissCow() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "cows/kiss.cow", size: 637, mode: os.FileMode(420), modTime: time.Unix(1525175246, 0)}
+	info := bindataFileInfo{name: "cows/kiss.cow", size: 637, mode: os.FileMode(436), modTime: time.Unix(1616010265, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -551,7 +551,7 @@ func cowsKittyCow() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "cows/kitty.cow", size: 296, mode: os.FileMode(420), modTime: time.Unix(1525175246, 0)}
+	info := bindataFileInfo{name: "cows/kitty.cow", size: 296, mode: os.FileMode(436), modTime: time.Unix(1616010265, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -571,7 +571,7 @@ func cowsKoalaCow() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "cows/koala.cow", size: 162, mode: os.FileMode(420), modTime: time.Unix(1525175246, 0)}
+	info := bindataFileInfo{name: "cows/koala.cow", size: 162, mode: os.FileMode(436), modTime: time.Unix(1616010265, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -591,7 +591,7 @@ func cowsKoshCow() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "cows/kosh.cow", size: 406, mode: os.FileMode(420), modTime: time.Unix(1525175246, 0)}
+	info := bindataFileInfo{name: "cows/kosh.cow", size: 406, mode: os.FileMode(436), modTime: time.Unix(1616010265, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -611,7 +611,7 @@ func cowsLukeKoalaCow() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "cows/luke-koala.cow", size: 225, mode: os.FileMode(420), modTime: time.Unix(1525175246, 0)}
+	info := bindataFileInfo{name: "cows/luke-koala.cow", size: 225, mode: os.FileMode(436), modTime: time.Unix(1616010265, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -631,7 +631,7 @@ func cowsMeowCow() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "cows/meow.cow", size: 473, mode: os.FileMode(420), modTime: time.Unix(1525175246, 0)}
+	info := bindataFileInfo{name: "cows/meow.cow", size: 473, mode: os.FileMode(436), modTime: time.Unix(1616010265, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -651,7 +651,7 @@ func cowsMilkCow() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "cows/milk.cow", size: 439, mode: os.FileMode(420), modTime: time.Unix(1525175246, 0)}
+	info := bindataFileInfo{name: "cows/milk.cow", size: 439, mode: os.FileMode(436), modTime: time.Unix(1616010265, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -671,7 +671,7 @@ func cowsMoofasaCow() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "cows/moofasa.cow", size: 242, mode: os.FileMode(420), modTime: time.Unix(1525175246, 0)}
+	info := bindataFileInfo{name: "cows/moofasa.cow", size: 242, mode: os.FileMode(436), modTime: time.Unix(1616010265, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -691,7 +691,7 @@ func cowsMooseCow() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "cows/moose.cow", size: 203, mode: os.FileMode(420), modTime: time.Unix(1525175246, 0)}
+	info := bindataFileInfo{name: "cows/moose.cow", size: 203, mode: os.FileMode(436), modTime: time.Unix(1616010265, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -711,7 +711,7 @@ func cowsMutilatedCow() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "cows/mutilated.cow", size: 201, mode: os.FileMode(420), modTime: time.Unix(1525175246, 0)}
+	info := bindataFileInfo{name: "cows/mutilated.cow", size: 201, mode: os.FileMode(436), modTime: time.Unix(1616010265, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -731,7 +731,7 @@ func cowsRenCow() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "cows/ren.cow", size: 252, mode: os.FileMode(420), modTime: time.Unix(1525175246, 0)}
+	info := bindataFileInfo{name: "cows/ren.cow", size: 252, mode: os.FileMode(436), modTime: time.Unix(1616010265, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -751,7 +751,7 @@ func cowsSageCow() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "cows/sage.cow", size: 290, mode: os.FileMode(420), modTime: time.Unix(1525175246, 0)}
+	info := bindataFileInfo{name: "cows/sage.cow", size: 290, mode: os.FileMode(436), modTime: time.Unix(1616010265, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -771,7 +771,7 @@ func cowsSatanicCow() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "cows/satanic.cow", size: 186, mode: os.FileMode(420), modTime: time.Unix(1525175246, 0)}
+	info := bindataFileInfo{name: "cows/satanic.cow", size: 186, mode: os.FileMode(436), modTime: time.Unix(1616010265, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -791,7 +791,7 @@ func cowsSheepCow() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "cows/sheep.cow", size: 234, mode: os.FileMode(420), modTime: time.Unix(1525175246, 0)}
+	info := bindataFileInfo{name: "cows/sheep.cow", size: 234, mode: os.FileMode(436), modTime: time.Unix(1616010265, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -811,7 +811,7 @@ func cowsSkeletonCow() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "cows/skeleton.cow", size: 433, mode: os.FileMode(420), modTime: time.Unix(1525175246, 0)}
+	info := bindataFileInfo{name: "cows/skeleton.cow", size: 433, mode: os.FileMode(436), modTime: time.Unix(1616010265, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -831,7 +831,7 @@ func cowsSmallCow() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "cows/small.cow", size: 165, mode: os.FileMode(420), modTime: time.Unix(1525175246, 0)}
+	info := bindataFileInfo{name: "cows/small.cow", size: 165, mode: os.FileMode(436), modTime: time.Unix(1616010265, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -851,7 +851,7 @@ func cowsSodomizedCow() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "cows/sodomized.cow", size: 317, mode: os.FileMode(420), modTime: time.Unix(1525175246, 0)}
+	info := bindataFileInfo{name: "cows/sodomized.cow", size: 317, mode: os.FileMode(436), modTime: time.Unix(1616010265, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -871,7 +871,7 @@ func cowsSquirrelCow() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "cows/squirrel.cow", size: 283, mode: os.FileMode(420), modTime: time.Unix(1525189506, 0)}
+	info := bindataFileInfo{name: "cows/squirrel.cow", size: 283, mode: os.FileMode(436), modTime: time.Unix(1616010265, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -891,7 +891,7 @@ func cowsStegosaurusCow() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "cows/stegosaurus.cow", size: 854, mode: os.FileMode(420), modTime: time.Unix(1525189446, 0)}
+	info := bindataFileInfo{name: "cows/stegosaurus.cow", size: 854, mode: os.FileMode(436), modTime: time.Unix(1616010265, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -911,7 +911,7 @@ func cowsStimpyCow() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "cows/stimpy.cow", size: 364, mode: os.FileMode(420), modTime: time.Unix(1525175246, 0)}
+	info := bindataFileInfo{name: "cows/stimpy.cow", size: 364, mode: os.FileMode(436), modTime: time.Unix(1616010265, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -931,7 +931,7 @@ func cowsSupermilkerCow() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "cows/supermilker.cow", size: 280, mode: os.FileMode(420), modTime: time.Unix(1525175246, 0)}
+	info := bindataFileInfo{name: "cows/supermilker.cow", size: 280, mode: os.FileMode(436), modTime: time.Unix(1616010265, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -951,7 +951,7 @@ func cowsSurgeryCow() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "cows/surgery.cow", size: 892, mode: os.FileMode(420), modTime: time.Unix(1525175246, 0)}
+	info := bindataFileInfo{name: "cows/surgery.cow", size: 892, mode: os.FileMode(436), modTime: time.Unix(1616010265, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -971,7 +971,7 @@ func cowsTelebearsCow() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "cows/telebears.cow", size: 333, mode: os.FileMode(420), modTime: time.Unix(1525175246, 0)}
+	info := bindataFileInfo{name: "cows/telebears.cow", size: 333, mode: os.FileMode(436), modTime: time.Unix(1616010265, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -991,7 +991,7 @@ func cowsTurkeyCow() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "cows/turkey.cow", size: 1302, mode: os.FileMode(420), modTime: time.Unix(1525175246, 0)}
+	info := bindataFileInfo{name: "cows/turkey.cow", size: 1302, mode: os.FileMode(436), modTime: time.Unix(1616010265, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1011,7 +1011,7 @@ func cowsTurtleCow() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "cows/turtle.cow", size: 1105, mode: os.FileMode(420), modTime: time.Unix(1525175246, 0)}
+	info := bindataFileInfo{name: "cows/turtle.cow", size: 1105, mode: os.FileMode(436), modTime: time.Unix(1616010265, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1031,7 +1031,7 @@ func cowsTuxCow() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "cows/tux.cow", size: 215, mode: os.FileMode(420), modTime: time.Unix(1525175246, 0)}
+	info := bindataFileInfo{name: "cows/tux.cow", size: 215, mode: os.FileMode(436), modTime: time.Unix(1616010265, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1051,7 +1051,7 @@ func cowsVaderKoalaCow() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "cows/vader-koala.cow", size: 213, mode: os.FileMode(420), modTime: time.Unix(1525175246, 0)}
+	info := bindataFileInfo{name: "cows/vader-koala.cow", size: 213, mode: os.FileMode(436), modTime: time.Unix(1616010265, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1071,7 +1071,7 @@ func cowsVaderCow() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "cows/vader.cow", size: 279, mode: os.FileMode(420), modTime: time.Unix(1525175246, 0)}
+	info := bindataFileInfo{name: "cows/vader.cow", size: 279, mode: os.FileMode(436), modTime: time.Unix(1616010265, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -1091,7 +1091,7 @@ func cowsWwwCow() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "cows/www.cow", size: 248, mode: os.FileMode(420), modTime: time.Unix(1525175246, 0)}
+	info := bindataFileInfo{name: "cows/www.cow", size: 248, mode: os.FileMode(436), modTime: time.Unix(1616010265, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
